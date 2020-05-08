@@ -1,0 +1,58 @@
+/* formatação geral */
+body{
+	font-family: "Zilla+Slab", cursive;
+
+}
+
+	h1, h2, h3{
+
+margin: 0;
+font-family: "Indie+Flower&family", "Zilla+Slab", cursive;
+font-weight: 700;
+}
+
+	P{
+		font-family: Manrope, "Comic+Neue", cursive;
+
+	}
+
+	/*cabeçalho ou barro de navegação*/
+
+	.logo img{
+		border-radius: 50%;
+
+	}
+
+	nav{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #FF8C00;
+padding: 30px;
+	}
+
+nav ul{
+list-style: none;
+padding: 0;
+display: flex;
+flex-direction: column; 
+align-items: center;
+width: 100%;
+
+}
+nav ul{
+text-align: center;
+width: 100%;
+font-size: 1.5em;
+padding: 2%;
+
+}
+
+nav ul li a{
+
+display: inline-block;
+padding: 12px 0;
+width: 100;
+text-decoration:none;
+color: #fff;
+}

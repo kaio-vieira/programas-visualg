@@ -1,4 +1,4 @@
-/* formatação geral */
+-/* formatação geral */
 body{
 	font-family: "Zilla+Slab", cursive;
 
@@ -11,15 +11,19 @@ font-family: "Indie+Flower&family", "Zilla+Slab", cursive;
 font-weight: 700;
 }
 
-	P{
+	 p{
 		font-family: Manrope, "Comic+Neue", cursive;
+
+	}
+	.container{
+width: 100%;
 
 	}
 
 	/*cabeçalho ou barro de navegação*/
 
 	.logo img{
-		border-radius: 50%;
+		border-radius: 10%;
 
 	}
 
@@ -40,7 +44,7 @@ align-items: center;
 width: 100%;
 
 }
-nav ul{
+nav ul li{
 text-align: center;
 width: 100%;
 font-size: 1.5em;
@@ -51,8 +55,177 @@ padding: 2%;
 nav ul li a{
 
 display: inline-block;
-padding: 12px 0;
-width: 100;
+padding: 10px 0;
+width: 100%;
 text-decoration:none;
 color: #fff;
 }
+
+/*header*/
+
+header{
+background-image: url('../img/fundo.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 30px;
+
+
+}
+
+
+header p{
+
+	margin-bottom: 2em;
+	font-size: 1.7em;
+
+}
+
+.botao{
+
+color: #fff;
+text-decoration: none;
+padding: 10px 30px;
+background-color: #FF8C00;
+font-size: .8em;
+border-radius: 11%;
+
+} 
+
+#sobre{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #FF8C00;
+color: #fff;
+
+}
+#sobre h2{
+
+margin-top: 20px;
+font-size: 2em;
+}
+
+.foto img{
+width: 40%;
+
+}
+
+.foto {
+float : left;
+width: 50%;
+
+}
+
+.texto{
+float: right;
+width: 50%;
+
+}
+
+@media screen and (min-width: 768px){
+
+	/* cabeçalho ou barra de navegação */
+}
+
+nav{
+
+flex-direction: row;
+justify-content: space-around;
+
+}
+nav ul{
+
+flex-direction: row; 
+width: 70%;
+
+}
+
+header{
+ height:60vh;
+ justify-content: center; 
+}
+
+
+#sobre{
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+height: 90vh;
+justify-content: center;
+min-height: 80vh;
+
+}
+
+#sobre h2{
+text-align: center;
+width: 100%;
+}
+
+#sobre div{
+
+flex-grow: 1;
+flex-basis: 300px;
+padding: 0 10px;
+}
+
+#especialidades {
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+margin: 0 auto;
+}
+
+#especialidades div{
+display: flex;
+flex direction: column;
+align-items: center;
+text-align: center;
+margin-top: 30px;
+}
+
+#especialidades p{
+line-height: 1.5;
+margin: 2vh;
+font-size: 1.2em;
+}
+
+#especialidades img{
+margin: 10px 0 ;
+
+}
+
+#especialidades h2{
+font-size: 2em;
+
+} 
+ #especialidades{
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+max-width: 1000px;
+margin:  0 auto;
+ }
+
+
+ #especialidades h2{
+
+text-align: center;
+width: 100%;
+
+ }
+
+ #especialidades div{
+
+flex-grow: 1;
+flex-basis: 150px
+padding 0 10px;
+ }

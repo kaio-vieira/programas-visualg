@@ -28,6 +28,7 @@ width: 100%;
 	}
 
 	nav{
+
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -102,6 +103,7 @@ border-radius: 11%;
 display: flex;
 flex-direction: column;
 align-items: center;
+text-align: center;
 background-color: #FF8C00;
 color: #fff;
 
@@ -113,7 +115,7 @@ font-size: 2em;
 }
 
 .foto img{
-width: 40%;
+width: 60%;
 
 }
 
@@ -137,7 +139,7 @@ width: 50%;
 nav{
 
 flex-direction: row;
-justify-content: space-around;
+justify-content: center;
 
 }
 nav ul{
@@ -168,12 +170,7 @@ text-align: center;
 width: 100%;
 }
 
-#sobre div{
 
-flex-grow: 1;
-flex-basis: 300px;
-padding: 0 10px;
-}
 
 #especialidades {
 padding: 20px;
@@ -229,3 +226,73 @@ flex-grow: 1;
 flex-basis: 150px
 padding 0 10px;
  }
+
+ #competencias{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+
+ }
+
+ #competencias h2{
+
+margin-bottom: 20px;
+margin-top: 10px;
+font-size: 2em;
+text-align: center;
+ }
+
+#competencias h3{
+
+margin-bottom: 20px;
+margin-top: 10px;
+font-size : 1em;
+text-align: center;
+}
+
+#competencias p{
+margin-bottom: 20px;
+margin-top: 10px;
+font-size: 1em;
+text-align: center;
+}
+
+#competencias a{
+	text-decoration: none;
+}
+
+#competencias img{
+
+width: 100%;
+margin-bottom: 0;
+}
+
+#competencias .comp p{
+
+border-left: 2px solid black;
+border-right: 2px solid black;
+border-bottom: 2px solid black;
+margin-top: 0;
+font-family: "Indie+Flower&family", "Zilla+Slab" sans-serif;
+padding-right: 15px; 
+padding-left: 15px;
+line-height: 1.5;
+}
+
+
+#competencias {
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+#competencias .comp{
+width: 33.3333333333%;
+text-align: center;
+
+}
+
+

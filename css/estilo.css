@@ -273,14 +273,27 @@ margin-bottom: 0;
 
 #competencias .comp p{
 
-border-left: 2px solid black;
-border-right: 2px solid black;
-border-bottom: 2px solid black;
+border-left: 10px groove #FF8C00;
+border-right: 10px groove #FF8C00;
+border-bottom: 10px groove #FF8C00;
+border-radius: 20%; 
 margin-top: 0;
 font-family: "Indie+Flower&family", "Zilla+Slab" sans-serif;
 padding-right: 15px; 
 padding-left: 15px;
 line-height: 1.5;
+
+}
+
+.trab img:hover{
+-ms-transform: rotate(-10deg);
+-webkit-transform: rotate(-10deg);
+-moz-transform: rotate(-10deg);
+-o-transform: rotate(-10deg);
+transform: rotate(-10deg);
+}
+.trab img{ 
+ border:10px groove#FF8C00;
 }
 
 
@@ -295,4 +308,94 @@ text-align: center;
 
 }
 
+#hobby {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+width: 100%;
+}
 
+#hobby h2{
+margin-bottom: 20px;
+margin-top: 10px;
+font-size: 2em;
+text-align: center;
+}
+
+.hobby{
+width: 80%;
+align-items: center;
+text-align: center;
+}
+
+
+.hobby h3{
+font-size: 1.5em;
+margin-top: 30px;
+margin-bottom: 14px;
+}
+
+#contato{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background-color: #FF8C00;
+width: 100%;
+}
+
+#cntato h2{
+margin-left:20px; 
+margin-top: 20px
+margin-width:20px;
+margin-bottom: 20px;
+font-size:2em ;
+text-align:center;
+color: #FF8C00;
+
+}
+
+#contato > p{
+
+margin-bottom: 1.2em;
+font-size: 1.2em;
+color: #fff;
+text-align: center;
+}
+
+#contato a{
+text-decoration: none;
+color: #fff
+font-size: "Indie+Flower&family", "Zilla+Slab", sans-serif;
+text-align:center;
+}
+
+footer{
+
+text-align: center;
+width: 100%
+background-color: #4169e1
+padding-top:20px;
+padding-bottom: 20px 
+}
+
+#contato {
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+max-width: 100%;
+margin: 0 auto;
+text-align: center;
+max-height: 40vh
+width:100%;
+}
+
+#contato h2,
+#contato p{
+	width: 100%;
+	text-align: center;
+}

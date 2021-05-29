@@ -30,7 +30,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-	background-color: #FF8C00;
+	background-color: #00ffc8;
     padding: 5px;
 }
 nav ul {
@@ -92,7 +92,7 @@ header p {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	background-color: #FF8C00;
+	background-color: #00ffc8;
 	color: #fff;
 }
 
@@ -246,9 +246,9 @@ header {
 }
 
 #competencias .comp p {
-	border-left: 10px groove #FF8C00;
-	border-right: 10px groove #FF8C00;
-	border-bottom: 10px groove #FF8C00;
+	border-left: 10px groove#00ffc8;
+	border-right: 10px groove #00ffc8;
+	border-bottom: 10px groove #00ffc8;
 	border-radius: 20%;
 	margin-top: 0;
 	font-family: "Indie+Flower&family", "Zilla+Slab" sans-serif;
@@ -266,7 +266,7 @@ header {
 }
 
 .trab img {
-	border: 10px groove#FF8C00;
+	border: 10px groove#00ffc8;
 	max-width: 100%;
 }
 
@@ -317,7 +317,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	background-color: #FF8C00;
+	background-color:#00ffc8;
 	width: 100%;
 }
 
@@ -328,7 +328,7 @@ header {
 	margin-bottom: 20px;
 	font-size: 2em;
 	text-align: center;
-	color: #FF8C00;
+	color:#00ffc8;
 }
 
 #contato>p {
